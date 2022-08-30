@@ -1,4 +1,82 @@
-* {
-  box-sizing: border-box;
+section{
+  padding:20px;
 }
+.nav--container{
+  display: flex;
+  background-color: #F55A5A;
+  justify-content: center;
+  align-items: center;
+  height: 55px;
+  gap: 10px;
+}
+.nav--title{
+  color: #FFFFFF;
+  font-weight: 500;
+  font-size: 14.4608px;
+  letter-spacing: -0.020em;
+ 
+}
+.card--container{
+  padding-top: 10px;
+  display: flex;
+
+
+}
+.card--photo{
+  width: 125px;
+  height: 168px;
+  border-radius: 5px;
+
+}
+.card--info-container{
+  padding-top: 23px;
+  padding-left: 10px;
+  justify-content: center;
+}
+
+.card--location{
+  font-size: 10.24px;
+  padding-left: 4px;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+}
+.card--google{
+  padding-left: 8px;
+  text-decoration-line: underline;
+  color: #918E9B ;
+  font-size: 10.24px;
+}
+.card--title{
+  margin:0px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  font-weight: 700;
+font-size: 25px;
+line-height: 30px;
+}
+.card--date{
+
+  color: #2B283A;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 12px;
+  
+
+
+}
+.card--content{
+  padding-top: 9px;
+  margin: 0px;
+  color: #2B283A;
+  font-weight: 400;
+font-size: 12px;
+line-height: 150%;
+}
+.card-linebreak{
+  margin-top: 8%;
+  margin-bottom: 0px;
+  width: 100%;
+  
+}
+
 
